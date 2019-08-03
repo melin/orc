@@ -21,7 +21,7 @@
   </parent>
   <groupId>org.apache.orc</groupId>
   <artifactId>orc</artifactId>
-  <version>1.5.6</version>
+  <version>td-1.5.6</version>
   <packaging>pom</packaging>
 
   <name>Apache ORC</name>
@@ -429,13 +429,7 @@
       <dependency>
         <groupId>io.airlift</groupId>
         <artifactId>aircompressor</artifactId>
-        <version>0.10</version>
-        <exclusions>
-          <exclusion>
-            <groupId>io.airlift</groupId>
-            <artifactId>slice</artifactId>
-          </exclusion>
-        </exclusions>
+        <version>0.15</version>
       </dependency>
       <dependency>
         <groupId>javax.xml.bind</groupId>
